@@ -1,7 +1,11 @@
-package com.example.myfirstapp;
+package com.example.myfirstapp.adapters;
 
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.myfirstapp.fragments.AllMangaFragment;
+import com.example.myfirstapp.fragments.NewMangaFragment;
+import com.example.myfirstapp.fragments.RecentMangaFragment;
 
 /**
  * Created by nhi on 2017-10-13.

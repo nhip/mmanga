@@ -1,11 +1,12 @@
-<GridView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/manga_grid"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:numColumns="3"
-    android:horizontalSpacing="10dp"
-    android:verticalSpacing="10dp"
-    android:gravity="center"
-    android:stretchMode="columnWidth"
-    android:padding="10dp">
-</GridView>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv"
+        />
+</LinearLayout>

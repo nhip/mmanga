@@ -1,16 +1,18 @@
-package com.example.myfirstapp;
+package com.example.myfirstapp.objects;
+
+import java.io.Serializable;
 
 /**
  * Created by nhi on 2017-10-13.
  */
 
-public class Manga {
+public class Manga implements Serializable {
 
     private double rating;
     private String author;
     private String title;
     private String description;
-    private int imageResourceId;
+    private int imageResourceId = -1;
 
     public Manga(String title, String author, String description, double rating) {
         this.title = title;
